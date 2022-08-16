@@ -23,14 +23,14 @@
     <header class="container-fluid">
         <nav class="navbar navbar-expand-lg bg-white pt-3 mb-1 ml-lg-3 mr-lg-3">
             <div class="container">
-                <a class="navbar-brand" href="./Home_page.html"><img src="../assets/img/logo.svg" alt="nav-logo"></a>
+                <a class="navbar-brand" href="/index.html"><img src="../assets/img/logo.svg" alt="nav-logo"></a>
                 <button class="navbar-toggler mb-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class=""> <i class="fa-solid fa-align-right nav-icon"></i></span></span>
                 </button>
                 <div class="collapse navbar-collapse " id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0 nav-ul">
                         <li class="nav-item nav-items">
-                            <a class="nav-link " aria-current="page" href="./">Home</a>
+                            <a class="nav-link " aria-current="page" href="./HomePage.html">Home</a>
                         </li>
 
                         <li class="nav-item dropdown nav-items">
@@ -40,7 +40,9 @@
                             <ul class="dropdown-menu dropdown1">
                                 <li><a href="./FAQ.html" class="dropdown-item dropdown-items">FAQs</a></li>
                                 <li><a href="./Blog.html" class="dropdown-item dropdown-items">Blogs</a></li>
-                                <li><a class="dropdown-item dropdown-items" href="./Dashboard.html">Developers</a></li>
+                                <li>
+                                    <a class="dropdown-item dropdown-items" href="./API-introduction.html">Documentation</a>
+                                </li>
                             </ul>
                         </li>
                         <li class="nav-item dropdown nav-items">
@@ -49,33 +51,13 @@
                             </a>
                             <div class="dropdown-menu dropdown1 wide-nav ">
                                 <div class="row ">
-                                    <div class="col-lg-3 col-sm-12 col-md-12 text-sm-center">
+                                    <div class="text-center">
                                         <h5 class="text-center"><strong>Split Files</strong></h5>
-                                        <a class="btn btn-light dropdown-item text-center" href="./FileUpload.html">Upload Files</a>
-                                        <a class="btn btn-light dropdown-item text-center" href="./splitbyLine.html">Split by
-                                                line</a>
-                                        <a class="btn btn-light dropdown-item text-center" href="./splitbySize.html">Split by
-                                                size</a>
+                                        <a class="dropdown-item text-center" href="./CSV.html">Chunk by CSV
+                                            </a>
+                                        <a class="dropdown-item text-center" href="./JSON.html">Chunk by JSON</a>
                                     </div>
-                                    <div class="col-lg-3 col-sm-12 col-md-12 text-sm-center">
-                                        <h5 class="text-center"><strong>Convert Files</strong></h5>
-                                        <a class="btn btn-light dropdown-item text-center" href="#">Upload Files</a>
-                                        <a class="btn btn-light dropdown-item text-center" href="#">Convert CSV to
-                                                JSON</a>
-                                        <a class="btn btn-light dropdown-item text-center" href="#">Convert JSON to
-                                                CSV</a>
-                                        <a class="btn btn-light dropdown-item text-center" href="#">Convert CSV to
-                                                Others</a>
-                                        <a class="btn btn-light dropdown-item text-center" href="#">Convert JSON to
-                                                Others</a>
 
-                                    </div>
-                                    <div class="col-lg-3 col-sm-12 col-md-12">
-                                        <h5 class="text-center"><strong>Compress Files</strong></h5>
-                                        <a class="btn btn-light dropdown-item text-center" href="#">Upload Files</a>
-                                        <a class="btn btn-light dropdown-item text-center" href="#">Compress by
-                                                size</a>
-                                    </div>
                                 </div>
                             </div>
 
@@ -93,6 +75,7 @@
                                 <div class="m-4"><a href="./Dashboard.html" class="nav-link2">Saved Items</a></div>
 
                                 <div class="">
+
                                     <a href="./Sign_In.html">
                                         <button href="./Sign_In.html" class="btn btn-subscribe1 m-3">
                                             <span>
